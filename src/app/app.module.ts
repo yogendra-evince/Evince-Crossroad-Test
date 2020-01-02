@@ -7,7 +7,12 @@ import { AppComponent } from './app.component';
 import { RepoDetailsComponent } from './components/repo-details/repo-details.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-
+/**
+ *
+ *
+ * @export
+ * @class AppModule
+ */
 @NgModule({
   declarations: [
     AppComponent,

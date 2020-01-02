@@ -8,7 +8,12 @@ const routes: Routes = [
   {path: '', component: RepoDetailsComponent},
   {path: '**', component: PageNotFoundComponent}
 ];
-
+/**
+ *
+ *
+ * @export
+ * @class AppRoutingModule
+ */
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
