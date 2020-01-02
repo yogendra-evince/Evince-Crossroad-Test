@@ -8,7 +8,6 @@ import { RepoDetails } from '../models/repo/repo-details';
   providedIn: 'root'
 })
 export class RepoService extends AbstractService {
-
   constructor(protected http: HttpClient) {
     super(http);
   }
